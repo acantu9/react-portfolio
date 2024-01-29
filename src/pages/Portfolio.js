@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 const Portfolio = () => {
   const projects = [
@@ -19,7 +17,6 @@ const Portfolio = () => {
 
   return (
     <section>
-      <Header />
       <h2>Portfolio</h2>
       {projects.map((project) => (
         <div key={project.title}>
@@ -32,7 +29,6 @@ const Portfolio = () => {
           </a>
         </div>
       ))}
-      <Footer />
     </section>
   );
 };

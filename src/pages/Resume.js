@@ -1,12 +1,9 @@
 import React from 'react';
 import resume from '../assets/resume.pdf';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 function Resume() {
   return (
     <div className="resume">
-      <Header />
       <h2>My Resume</h2>
       <p>
         Download my resume as a{' '}
@@ -15,7 +12,6 @@ function Resume() {
         </a>
         .
       </p>
-      <Footer />
     </div>
   );
 }
